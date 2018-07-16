@@ -25,8 +25,8 @@ export default function () {
       return schema.tasks.all();
     });
 
-    this.get('/suggestion', (schema) => {
-      return schema.tasks.find(2);
+    this.get('/suggestion', () => {
+      // return schema.tasks.find(2);
     });
   
     this.post('/tasks', (schema, request) => {

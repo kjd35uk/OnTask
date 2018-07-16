@@ -13,17 +13,25 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
+Make sure that you have the latest version of node installed by running the command:
+
+$ node -v 
+
+If your version is earlier than v10, change your version by using node version manager with the command:
+
+$ npm install -g n 
+
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd things-to-do`
+* `git clone https://github.com/kjd35uk/OnTask.git` 
+* `cd ontask`
 * `npm install`
 
 ## Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests) or [http://localhost:7357]
 
 ### Code Generators
 
