@@ -1,7 +1,8 @@
-# things-to-do
+# OnTask
+
+Welcome to OnTask, a task management desktop app that helps to make your life easier by keeping on top of your jobs and their due dates.
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
 
 ## Prerequisites
 

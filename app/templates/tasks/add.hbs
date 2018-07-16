@@ -1,0 +1,26 @@
+
+<div class="container">
+  <h1 class='add-task-heading'>Add your new task here:</h1>
+  <form>
+    <div class="row">
+      <div class="col-25">
+    <label>Title</label>
+      </div>
+      <div class="col-75">
+    {{input type = 'text' placeholder='Add new task here' value=title }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+    <label>Due date</label>
+      </div>
+      <div class="col-75">
+    {{input type = 'date' value=date }}
+      </div>
+    </div>
+    <div class="row">
+        <button class='button'{{action 'addTask'}}>Save</button>
+
+    </div>
+  </form>
+</div>

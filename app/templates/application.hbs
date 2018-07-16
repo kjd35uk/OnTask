@@ -1,5 +1,8 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<nav class='navbar'>
+<ul class='nav-navbar'>
+  <li class='nav-navbar-li'>{{#link-to 'tasks'}}Home{{/link-to}}</li>
+  <li class='nav-navbar-li'>{{#link-to 'tasks.add'}}Add task{{/link-to}}</li>
+  <li class='nav-navbar-li'>{{#link-to 'tasks.suggestion'}}<i class='fa fa-lightbulb-o' id='bulb'/>{{/link-to}}</li>
+</ul>
+</nav>
 {{outlet}}

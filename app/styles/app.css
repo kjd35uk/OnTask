@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Gaegu|Quicksand|Source+Code+Pro");
+
+.add-task-heading {
+  color: #4caf50;
+}
+
+.app-title {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 3rem;
+}
+
+.app-title-pic {
+  background-image: url("/images/leaves.jpg");
+  opacity: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  font-family: "Gaegu", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+body::after {
+  content: "";
+  background: url("/images/leaves.jpg");
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#bulb{
+  -webkit-transform: scale(1.9); 
+  margin-left:0.4rem;
+  margin-right:0.4rem;
+
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: x-large;
+  cursor: pointer;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 4rem;
+  border-radius: 25px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+} 
+
+.container {
+  margin-bottom: 2rem;
+}
+
+#delete-button {
+  width: 1.5rem;
+  height: 2rem;
+  -webkit-transform: scale(1.9); /* Safari and Chrome */
+  padding-top: 1rem;
+  margin: 0;
+}
+
+input {
+  width: 80%;
+  border-radius: 10px;
+}
+
+input[type="checkbox"] {
+  width: 1rem;
+  margin-right: 1rem;
+  height: 1rem;
+  padding: 0;
+  font-size: xx-large;
+  -webkit-transform: scale(1.9); /* Safari and Chrome */
+  color: #4caf50;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: x-large;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: large;
+  font-family: "Gaegu", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Source Code Pro", monospace;
+}
+
+input[type="text"]:hover {
+  background-color: rgb(155, 241, 181);
+}
+
+#item {
+  text-decoration: blink;
+  font-size: 3rem;
+}
+
+label {
+  font-size: x-large;
+}
+
+.nav-navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 1.5rem;
+}
+
+.nav-navbar-li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.nav-navbar-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-navbar-li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.nav-navbar-li a:hover {
+  background-color: #4caf50;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-navbar-li:last-child {
+  border-right: none;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#slogan {
+  font-size: xx-large;
+  margin-left: 4%;
+}
+
+.suggestion-title {
+  margin-top: 4rem;
+  color: black;
+  font-style: italic;
+  margin-left: 1rem;
+  font-size: 1.8rem;
+}
+
+.task-list-container {
+  margin-right: 6rem;
+}
+
+.task-list-header {
+  margin-left: 20%;
+  margin-top: 2rem;
+  font-weight: 100;
+}
+
+.task-list-li {
+  color: black;
+  list-style-type: none;
+  font-size: xx-large;
+}
+
+.task-list-ul {
+  background-image: url("/images/paper.png");
+  color: black;
+  text-decoration: none;
+  padding: 2rem;
+  margin-bottom: 8rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: auto;
+  width: 90%;
+}
+
+.tasks-list {
+  font-family: "Gaegu", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  padding: 0;
+  background-color: hotpink;
+  background-position: bottom;
+}
+

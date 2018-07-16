@@ -1,0 +1,18 @@
+<div class='app-title-pic'>
+<h1 class='app-title'><span>Welcome to</span><span style="font-family: cursive"> OnTask</span><br><span id='slogan'> Where life gets easier</span></h1>
+
+</div>
+<div class='page-container'>
+<div class='task-list-container'>
+  <h2 class='task-list-header'>Current tasks:</h2>
+<ul class='task-list-ul'>
+  {{#each model as |task|}}
+  <li v-for="(task, index) in tasks" class='task-list-li'></li> 
+    <i {{action 'deleteTask' task}}class="fa fa-trash" id='delete-button'></i>
+   <input type='checkbox' :id="`task-${index}`" v-model='task.done'>
+  <label class='task-label' :for="`task-${index}`">{{task.title}} - by {{task.date}}</label>
+  {{/each}}
+</ul>
+</div>
+{{outlet}}
+</div>
